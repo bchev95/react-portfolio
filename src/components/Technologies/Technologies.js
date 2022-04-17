@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiDatabase, DiReact, DiTerminal, DiCode } from 'react-icons/di';
+import { DiDatabase, DiTerminal} from 'react-icons/di';
 import {VscLibrary} from 'react-icons/vsc';
 import{HiOutlineCode} from 'react-icons/hi';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -8,10 +8,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
-    <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle><br/>Technologies</SectionTitle>
     <SectionText>
-      I am experienced in a range of technologies from web development to data science
+      I have experience with a broad range of computing technologies, here are some of them.
     </SectionText>
     <List>
       <ListItem>
@@ -22,8 +21,7 @@ const Technologies = () =>  (
             Python <br/>
             JavaScript <br/>
             C/C++ <br/>
-            Java <br/>
-            
+            Java <br/>  
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,9 +30,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Libraries</ListTitle>
           <ListParagraph>
-            React.js, Node.js, Express.js <br/>
-            pandas, SciPy, Scikit-learn, Matplotlib<br/>
-            
+            React.js <br />
+            Node.js <br />
+            Scikit-learn <br/> 
+            Matplotlib<br/>          
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +42,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
-            SQL <br/>
+            MySQL, PostgreSQL <br/>
             MongoDB <br/>
             AWS <br/>
             IBM Cloud <br/>

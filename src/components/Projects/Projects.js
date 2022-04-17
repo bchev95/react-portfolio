@@ -34,6 +34,10 @@ const Projects = () => (
           </BlogCard>
         ))}
       </GridContainer>
+      <div>
+        <br/>
+          <p style={{textAlign: "center"}}>More projects available on my Github profile</p>
+      </div>
   </Section>
 );
 

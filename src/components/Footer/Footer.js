@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
-
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
@@ -12,10 +11,14 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:brett.chevalier@gmail.com">brett.chevalier@gmail.com</LinkItem>
         </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Location</LinkTitle>
+             <LinkItem>West Palm Beach, Florida</LinkItem>
+        </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Learning daily</Slogan>
+          <Slogan>Always learning, never giving up.</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/bchev95">
           <AiFillGithub size="3rem" />

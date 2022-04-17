@@ -12,7 +12,7 @@ export const projects = [
     title: 'SpaceX Falcon 9 Launch Predictive Modeling',
     description: 'Utilize current SpaceX launch data for training various machine learning models to predict whether a Falcon 9 first stage booster will successfully land.',
     image: '/images/full_spacex_c.jpg',
-    tags: ['Python', 'Scikit-learn', 'matplotlib', 'Pandas', 'IBM Cloud'],
+    tags: ['Python', 'Scikit-learn', 'IBM Cloud'],
     source: 'https://google.com',
     visit: 'https://github.com/bchev95/Falcon-9-Predictive-Modeling',
     id: 1,
@@ -30,7 +30,7 @@ export const projects = [
     title: 'Recipe Suggestion Web Application',
     description: 'MERN stack web application incorporating user data and input to suggest relevant and delicious recipes.',
     image: '/images/full_recipe.jpg',
-    tags: ['React.js', 'Node.js', 'JavaScript', 'MongoDB', 'Express.js'],
+    tags: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
     source: 'https://google.com',
     visit: 'https://github.com/bchev95/Recipe-App',
     id: 3,
@@ -46,8 +46,11 @@ export const TimeLineData = [
 ];
 
 export const aboutData = [
-  { number: 20, text: 'Bachelor of Science, Computer Science', uni: 'University of Florida'},
-  { number: 1000, text: 'Google Data Analytics Professional Certificate', },
-  { number: 1900, text: 'IBM Data Science Professional Certificate', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 2020, text: 'Bachelor of Science, Computer Science', uni: 'University of Florida'},
+  { number: 2021, text: 'Google Data Analytics Professional Certificate', },
+  { number: 2021, text: 'IBM Data Science Professional Certificate', },
+];
+
+export const avatar = [
+  {image: 'images/avatar.jpg'}
 ];

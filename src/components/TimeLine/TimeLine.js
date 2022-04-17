@@ -41,9 +41,9 @@ const Timeline = () => {
 
   //   window.addEventListener('resize', handleResize);
   // }, []);
-
+  // previously Section id was about
   return (
-    <Section id="about">
+    <Section id="timeline">
       <SectionTitle>About me</SectionTitle>
       <SectionText></SectionText>
     </Section>
