@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Computer Vision Image Colorization',
     description: 'Containerized Python program employing OpenCV Artificial Intelligence library to colorize black and white images.',
-    image: '/images/full_cv.jpg',
+    image: 'https://github.com/bchev95/react-portfolio/blob/main/public/images/full_cv.jpg?raw=true',
     tags: ['Python', 'OpenCV', 'Docker'],
     source: 'https://google.com',
     visit: 'https://github.com/bchev95/Image_Colorization',
