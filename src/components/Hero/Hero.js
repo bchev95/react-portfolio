@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection} from './HeroStyles';
 import { ExternalLinks } from '../Projects/ProjectsStyles';
 
 
@@ -17,7 +17,7 @@ const Hero = () => (
       I love building applications, learning new technologies, and incorporating data wherever possible!
       </SectionText>
         <Button>Full Resume
-          <ExternalLinks href={"https://google.com"}>Full Resume</ExternalLinks>
+          <a href={"https://google.com"}>Full Resume</a>
         </Button>
       
     </LeftSection>
