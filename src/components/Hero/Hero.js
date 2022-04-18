@@ -16,8 +16,8 @@ const Hero = () => (
       <SectionText>
       I love building applications, learning new technologies, and incorporating data wherever possible!
       </SectionText>
-        <Button onClick={() => window.open("https://drive.google.com/file/d/1hATz_cqT47HsOvSo9ZcBdCDkzjgPbFnl/view?usp=sharing")}>
-          Full Resume
+        <Button>
+          <a href={"https://drive.google.com/file/d/1hATz_cqT47HsOvSo9ZcBdCDkzjgPbFnl/view?usp=sharing"} style={{color: 'white'}}>Full Resume</a>
         </Button>
       
     </LeftSection>
