@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'SpaceX Falcon 9 Launch Predictive Modeling',
     description: 'Utilize current SpaceX launch data for training various machine learning models to predict whether a Falcon 9 first stage booster will successfully land.',
-    image: './images/full_spacex_c.jpg',
+    image: 'https://github.com/bchev95/react-portfolio/blob/main/public/images/full_spacex_c.jpg?raw=true',
     tags: ['Python', 'Scikit-learn', 'IBM Cloud'],
     source: 'https://google.com',
     visit: 'https://github.com/bchev95/Falcon-9-Predictive-Modeling',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Encrypted Messaging Application',
     description: 'C++ program for secure communication through TCP/IP sockets, encrypted with AES-256 CFB mode and hashed Diffie-Hellman key agreement.',
-    image: '/images/full_encrypt.jpg',
+    image: 'https://github.com/bchev95/react-portfolio/blob/main/public/images/full_encrypt.jpg?raw=true',
     tags: ['C++', 'CryptoPP'],
     source: 'https://google.com',
     visit: 'https://github.com/bchev95/Encrypted-Messaging-Application',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Recipe Suggestion Web Application',
     description: 'MERN stack web application incorporating user data and input to suggest relevant and delicious recipes.',
-    image: '/images/full_recipe.jpg',
+    image: 'https://github.com/bchev95/react-portfolio/blob/main/public/images/full_recipe.jpg?raw=true',
     tags: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
     source: 'https://google.com',
     visit: 'https://github.com/bchev95/Recipe-App',
