@@ -25,9 +25,9 @@ const Header = () =>  (
         </NavLink>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
+        <a href="#about">
+          Aboout
+        </a>
       </li>
     </Div2>
     <Div3>
