@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'SpaceX Falcon 9 Launch Predictive Modeling',
     description: 'Utilize current SpaceX launch data for training various machine learning models to predict whether a Falcon 9 first stage booster will successfully land.',
-    image: '/images/full_spacex_c.jpg',
+    image: './images/full_spacex_c.jpg',
     tags: ['Python', 'Scikit-learn', 'IBM Cloud'],
     source: 'https://google.com',
     visit: 'https://github.com/bchev95/Falcon-9-Predictive-Modeling',
