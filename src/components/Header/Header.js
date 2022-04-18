@@ -20,8 +20,8 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+        <Link >
+          <NavLink href="https://bchev95.github.io/react-portfolio/#tech">Technoologies</NavLink>
         </Link>
       </li>
       <li>
