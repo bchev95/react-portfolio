@@ -14,9 +14,10 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxNum>{card.number}</BoxNum>
           <br />
+          <BoxText><strong>{card.text0}</strong></BoxText>
           <BoxText>{card.text}</BoxText>
           <br />
-          <BoxText>{card.uni}</BoxText>
+          <BoxText>{card.text2}</BoxText>
         </Box>
       ))}
     </Boxes>

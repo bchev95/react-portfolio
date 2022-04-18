@@ -38,11 +38,7 @@ export const projects = [
 ];
 
 export const aboutData = [
-  { number: 2020, text: 'Bachelor of Science, Computer Science', uni: 'University of Florida'},
-  { number: 2021, text: 'Google Data Analytics Professional Certificate', },
-  { number: 2021, text: 'IBM Data Science Professional Certificate', },
-];
-
-export const avatar = [
-  {image: 'images/avatar.jpg'}
+  { number: 2020, text0: 'Bachelor of Science', text: 'Computer Science', text2: 'University of Florida'},
+  { number: 2021, text: 'Google Data Analytics Professional Certificate', text2: 'IBM Data Science Professional Certificate'},
+  { number: 2022, text: 'Building more projects, practicing coding and studying for cloud certifications!' },
 ];

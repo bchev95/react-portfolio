@@ -54,34 +54,35 @@ export const BoxNum = styled.h5`
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 28px;
-    line-height: 32px;
+    line-height: 20px;
   }
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 24px;
-    line-height: 26px;
+    line-height: 14px;
 }
 `
 
 export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
+  
 
   @media ${props => props.theme.breakpoints.md}{
-    font-size: 12px;
-    line-height: 11px;
+    font-size: 10px;
+    line-height: 11px; 
   };
 
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 10px;
-    line-height: 8px;
+    line-height: 10px;
   }
 `
 

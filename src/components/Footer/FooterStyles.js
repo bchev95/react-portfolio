@@ -35,7 +35,7 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 10px;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -127,7 +127,7 @@ export const LinkList = styled.ul`
 	@media ${props => props.theme.breakpoints.md} {
 		width: 100%;
 		padding: 32px 0 16px;
-		gap: 16px;
+		gap: 100px;
 	}
 	@media ${props => props.theme.breakpoints.sm} {
 		width: 100%;
@@ -141,6 +141,12 @@ export const LinkColumn = styled.div`
 	flex-direction: column;
 	max-width: 220px;
 	width: 100%;
+
+	@media ${props => props.theme.breakpoints.md} {
+		font-size: 10px;
+		line-height: 12px;
+		padding-right: 8px;
+	}
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;
