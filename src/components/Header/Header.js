@@ -9,26 +9,26 @@ const Header = () =>  (
     <Div1>
       <Link href ="/react-portfolio">
         <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: 20}}>
-          <FaLaptopCode size="3rem" style={{marginRight: 20}}/> <Span> My Portfolio</Span>
+          <FaLaptopCode size="3rem" style={{marginRight: 20}}/> 
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
         <Link href="https://bchev95.github.io/react-portfolio/#projects">
-          <a style={{display: "flex", alightItems: "center", color: 'white'}}> <Span>Projects</Span>
+          <a style={{display: "flex", color: 'white'}}> <Span>Projects</Span>
           </a>
         </Link>
       </li>
       <li>
         <Link href="https://bchev95.github.io/react-portfolio/#tech">
-        <a style={{display: "flex", alightItems: "center", color: 'white'}}> <Span>Technologies</Span>
+        <a style={{display: "flex", color: 'white'}}> <Span>Technologies</Span>
         </a>
         </Link>
       </li>
       <li>
         <Link href="https://bchev95.github.io/react-portfolio/#about">
-        <a style={{display: "flex", alightItems: "center", color: 'white'}}> <Span>About</Span>
+        <a style={{display: "flex", color: 'white'}}> <Span>About</Span>
         </a>
         </Link>
       </li>
