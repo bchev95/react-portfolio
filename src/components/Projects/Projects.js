@@ -34,7 +34,7 @@ const Projects = () => (
       </GridContainer>
       <div>
         <br/>
-          <p style={{textAlign: "center"}}>More projects available on my Github profile</p>
+          <p style={{textAlign: "center"}}>More projects available on my <a href={"https://github.com/bchev95"} style={{color: 'aqua'}}>Github profile</a></p>
       </div>
   </Section>
 );
