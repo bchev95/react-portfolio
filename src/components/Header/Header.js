@@ -21,13 +21,15 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <NavLink >
-          <a href="https://bchev95.github.io/react-portfolio/#tech">Technoologies</a>
-        </NavLink>
+        <Link href="https://bchev95.github.io/react-portfolio/#tech">
+        <a style={{display: "flex", alightItems: "center", color: 'white'}}> <Span>Technologies</Span>
+        </a>
+        </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="https://bchev95.github.io/react-portfolio/#about">
+        <a style={{display: "flex", alightItems: "center", color: 'white'}}> <Span>About</Span>
+        </a>
         </Link>
       </li>
     </Div2>
