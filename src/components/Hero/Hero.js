@@ -4,6 +4,9 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+goToPage()
+
+
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
@@ -14,7 +17,10 @@ const Hero = () => (
       <SectionText>
       I love building applications, learning new technologies, and incorporating data wherever possible!
       </SectionText>
-      <Button onClick={() => href = 'https://drive.google.com/file/d/1hATz_cqT47HsOvSo9ZcBdCDkzjgPbFnl/view?usp=sharing'}>Full Resume</Button>
+      <Link href = "https://drive.google.com/file/d/1hATz_cqT47HsOvSo9ZcBdCDkzjgPbFnl/view?usp=sharing">
+        <Button>Full Resume</Button>
+      </Link>
+      
     </LeftSection>
   </Section>
 );
