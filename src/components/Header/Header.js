@@ -16,7 +16,8 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href="https://bchev95.github.io/react-portfolio/#projects">
-          Projects
+          <a style={{display: "flex", alightItems: "center", color: 'white'}}> <Span>Projects</Span>
+          </a>
         </Link>
       </li>
       <li>
@@ -25,9 +26,9 @@ const Header = () =>  (
         </NavLink>
       </li>
       <li>
-        <a href="#about">
-          Aboout
-        </a>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
       </li>
     </Div2>
     <Div3>
