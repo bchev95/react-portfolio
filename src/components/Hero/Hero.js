@@ -1,8 +1,6 @@
 import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { ExternalLinks } from '../Projects/ProjectsStyles';
-import { LeftSection} from './HeroStyles';
+import { LeftSection, ResumeButton} from './HeroStyles';
 
 
 
@@ -16,9 +14,9 @@ const Hero = () => (
       <SectionText>
       I love building applications, learning new technologies, and incorporating data wherever possible!
       </SectionText>   
-      <Button> 
-        <a href={"https://drive.google.com/file/d/1hATz_cqT47HsOvSo9ZcBdCDkzjgPbFnl/view?usp=sharing"} style={{color: 'white'}}>Full Resume</a>
-      </Button>
+      <ResumeButton href={"https://drive.google.com/file/d/1hATz_cqT47HsOvSo9ZcBdCDkzjgPbFnl/view?usp=sharing"}> 
+        Full Resume
+      </ResumeButton>
     </LeftSection>
   </Section>
 );
