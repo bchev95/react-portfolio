@@ -13,7 +13,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Location</LinkTitle>
-             <LinkItem>West Palm Beach, Florida</LinkItem>
+             <LinkItem>Miami, Florida</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
